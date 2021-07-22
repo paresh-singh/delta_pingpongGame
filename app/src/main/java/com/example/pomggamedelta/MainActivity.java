@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import views.CustomView;
 import views.GameView;
+import views.GameView2;
 
 public class MainActivity extends AppCompatActivity {
 

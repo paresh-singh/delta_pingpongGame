@@ -21,13 +21,10 @@ public class GameThread extends Thread {
         super.run();
         while (running){
             Canvas c = null ;
-
             try {
                 c = viewhere.getHolder().lockCanvas();
-
                 synchronized (viewhere.getHolder()){
                     viewhere.onDraw(c);
-
                 }
             } finally {
                 if(c!= null){

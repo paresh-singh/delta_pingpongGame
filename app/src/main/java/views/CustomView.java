@@ -20,8 +20,7 @@ public class CustomView extends View {
     private Paint paint , mPaintCircle ;
     private Float cx = 100f , cy = 100f;
     private Float rad = 300f ;
-    int a = getWidth() ;
-    int b = getHeight() ;
+
 
 
     public CustomView(Context context) {
