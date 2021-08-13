@@ -142,7 +142,7 @@ public class GameView extends SurfaceView {
         rect.set((int)(currX-200), rect.top, (int)(currX+200), rect.bottom);
         //boundary
         if(x<0 || x  > getWidth() - 50){
-            xSpeed*=-1;
+            xSpeed*=-1.01;
         }
         if(y<0 ){
             ySpeed*=-1;
